@@ -6,7 +6,6 @@ const API_KEY = import.meta.env.VITE_GIPHY_API_KEY;
 
 
 const Tag = () => {
-  const [first, setfirst] = useState(second)
   const [gif, setGif] = useState('')
   const [loading, setLoading] = useState('false')
 
